@@ -54,4 +54,10 @@ with tab2:
     st.dataframe(solution)
 
 with tab3:
+<<<<<<< HEAD
     st.write(answer)
+=======
+    st.header("An owl")
+    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+
+>>>>>>> 0f9c35f (code de pierre)
