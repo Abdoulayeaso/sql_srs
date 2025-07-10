@@ -40,6 +40,7 @@ if query:
             f"result has a {n_lines_difference} lines difference with the solution_df"
        )
 
+
 tab2, tab3 = st.tabs(["tables", "Solution"])
 
 with tab2:
@@ -48,6 +49,7 @@ with tab2:
         st.write(f"table: {table}")
         df_table = con.execute(f"SELECT * FROM {table}").df()
         st.dataframe(df_table)
+
 
 with tab3:
     st.write(answer)
